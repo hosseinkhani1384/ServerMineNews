@@ -1,10 +1,11 @@
+require("dotenv").config();
+
 const express = require("express");
 const jwt = require("jsonwebtoken");
 const connectdb = require("./db/connectdb");
 const { apiRouter } = require("./routes/api.route");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
-require("dotenv").config();
 
 const app = express();
 const port = process.env.PORT || 2000;
