@@ -1,5 +1,13 @@
 ## 🧠 Backend Architecture & Security Deep Dive
 
+
+
+<p align="center">
+  <a href="./README.md"><img src="https://img.shields.io/badge/🇬🇧 English-README-blue" alt="English"></a>
+  <a href="./README-fa.md"><img src="https://img.shields.io/badge/🇮🇷 فارسی-README-green" alt="Persian"></a>
+</p>
+
+
 While the frontend delivers a polished user experience, the real magic happens behind the scenes. Building the backend for **MineNews** was a transformative journey that pushed me deep into the world of **Node.js**, **Express**, and modern security practices. This project wasn't just about writing APIs—it was about architecting a secure, scalable, and robust system that could handle real-world traffic and protect user data.
 
 You can explore the live project here: [https://hosseinkhani20.ir/](https://hosseinkhani20.ir/)
