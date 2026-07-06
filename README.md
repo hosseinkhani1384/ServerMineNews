@@ -1,10 +1,20 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-4-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/MongoDB-6-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/JWT-8A2BE2?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+  <img src="https://img.shields.io/badge/bcrypt-00599C?style=for-the-badge" alt="bcrypt" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License" />
+</p>
+
+
 ## 🧠 Backend Architecture & Security Deep Dive
 
 
 
 <p align="center">
-  <a href="./README.md"><img src="https://img.shields.io/badge/🇬🇧 English-README-blue" alt="English"></a>
-  <a href="./README-fa.md"><img src="https://img.shields.io/badge/🇮🇷 فارسی-README-green" alt="Persian"></a>
+  <a href="./README.md"><img src="https://img.shields.io/badge/English-README-blue" alt="English"></a>
+  <a href="./README-fa.md"><img src="https://img.shields.io/badge/فارسی-README-green" alt="Persian"></a>
 </p>
 
 
