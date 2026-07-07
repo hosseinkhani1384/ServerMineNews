@@ -14,22 +14,25 @@ const app = express();
 const port = process.env.PORT || 2000;
 
 app.use(
-  helmet({
-    crossOriginResourcePolicy: { policy: "cross-origin" },    
-    crossOriginOpenerPolicy: { policy: "same-origin-allow-popups" } 
-  })
-);
-app.use(
   cors({
     origin: [
       "http://localhost:3000",
       "https://www.hosseinkhani20.ir",
+      "https://hosseinkhani20.ir",
       "https://new-project-mu-ten.vercel.app",
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
-  }),
+  })
+);
+
+app.use(
+  helmet({
+    crossOriginResourcePolicy: { policy: "cross-origin" },
+    crossOriginOpenerPolicy: { policy: "same-origin-allow-popups" },
+    contentSecurityPolicy: false,
+  })
 );
 app.use(express.json());
 app.use(cookieParser());
