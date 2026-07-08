@@ -1,7 +1,7 @@
 const { rateLimit } = require("express-rate-limit");
 
 const authLimiter = rateLimit({
-  windowMs: 60 * 60 * 1000,
+  windowMs: 5 * 60 * 1000,
   limit: 10,
   handler: function (req, res) {
     res.status(429).json({
@@ -10,7 +10,7 @@ const authLimiter = rateLimit({
   },
 });
 const changePasswordLimiter = rateLimit({
-  windowMs: 60 * 60 * 1000,
+  windowMs: 5 * 60 * 1000,
   limit: 5,
   handler: function (req, res) {
     res.status(429).json({
